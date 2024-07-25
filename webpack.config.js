@@ -7,12 +7,12 @@ module.exports = {
     index: "./src/js/main.js",
   },
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "js/[name].bundle.js",
+    path: path.resolve(__dirname, "docs"),
+    filename: "js/[name].docs.js",
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, "dist"),
+      directory: path.join(__dirname, "docs"),
     },
   },
   plugins: [
