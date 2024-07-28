@@ -6,11 +6,7 @@ const controller = (state) => {
   const btns = document.querySelectorAll(".view-options__radio");
 
   btns.forEach((btn) => {
-    btn.removeAttribute("checked");
-
     btn.addEventListener("click", (e) => {
-      e.preventDefault();
-      e.target.checked = true;
       let displayType = e.target.value;
       state.emitter.emit("event:display-card-or-listing", { displayType });
     });

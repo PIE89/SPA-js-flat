@@ -8,7 +8,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #edf1f5;
 }
 .sticky-footer {
@@ -98,7 +98,7 @@ body {
 .logo {
   display: inline-block;
   margin: 0 auto;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   transform: skewX(-10deg);
   background-color: #fff;
   padding: 20px 45px 16px;
@@ -282,13 +282,13 @@ body {
 }
 .filter__reset:after {
   position: absolute;
-  content: '';
+  content: "";
   display: block;
   width: 14px;
   height: 14px;
   right: 10px;
   top: 50%;
-  background-image: url('../img/icons/multiply-black.png');
+  background-image: url("../img/icons/multiply-black.png");
   background-repeat: no-repeat;
   transform: translateY(-50%);
   opacity: 0.2;
@@ -327,13 +327,13 @@ a.card:hover {
 .card__like {
   cursor: pointer;
   font-size: 24px;
-  color: #ECECEC;
+  color: #ececec;
 }
 .card__like:hover {
   color: #ff0000;
 }
 .card__like--active {
-  color: #DC0909;
+  color: #dc0909;
 }
 .card__like--active:hover {
   opacity: 0.8;
@@ -398,7 +398,7 @@ a.card:hover {
   height: 50px;
 }
 .pagination__link:hover {
-  color: #DC0909;
+  color: #dc0909;
   text-decoration: none;
 }
 .pagination__link:first-child {
@@ -417,7 +417,7 @@ a.card:hover {
   font-weight: 500;
 }
 .pagination__page:hover {
-  color: #DC0909;
+  color: #dc0909;
   text-decoration: none;
 }
 .pagination__dots {
@@ -465,12 +465,10 @@ a.card:hover {
   left: -1000px;
   top: -1000px;
 }
-.view-options__radio:checked + .view-options__type-item {
-  color: #000000;
-}
+
 .view-options__type-item {
   margin-right: 12px;
-  color: #CFCFCF;
+  color: #cfcfcf;
   font-size: 20px;
   text-decoration: none;
   transition: 0.4s color ease;
@@ -480,6 +478,11 @@ a.card:hover {
   color: #696969;
   text-decoration: none;
 }
+
+input:checked + .view-options__type-item {
+  color: #000000 !important;
+}
+
 .view-options__type-item:last-child {
   margin-right: 0;
 }
@@ -508,7 +511,7 @@ a.card:hover {
   line-height: 1;
 }
 .panels-filter__name::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 50%;
@@ -516,7 +519,7 @@ a.card:hover {
   transform: translateY(-50%);
   width: 10px;
   height: 5px;
-  background-image: url('../img/icons/down-arrow.png');
+  background-image: url("../img/icons/down-arrow.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -802,7 +805,7 @@ a.panel.panel--no-hover:hover {
   transform: translateY(-50%);
   width: 100px;
   height: 140px;
-  background-color: #FFF;
+  background-color: #fff;
   opacity: 1;
 }
 .slider__control:hover {
@@ -957,7 +960,7 @@ a.panel.panel--no-hover:hover {
 }
 .footer a {
   text-decoration: underline;
-  color: #FFF;
+  color: #fff;
 }
 .modal-wrapper {
   position: fixed;
@@ -1153,7 +1156,7 @@ a.panel.panel--no-hover:hover {
 .sk-wave .sk-rect {
   background-color: #bd3939;
   height: 100%;
-  width: .5em;
+  width: 0.5em;
   display: inline-block;
   -webkit-animation: sk-wave-stretch-delay 1.2s infinite ease-in-out;
   animation: sk-wave-stretch-delay 1.2s infinite ease-in-out;
@@ -1427,7 +1430,7 @@ a.panel.panel--no-hover:hover {
   top: 0;
 }
 .sk-circle-bounce .sk-child:before {
-  content: '';
+  content: "";
   display: block;
   margin: 0 auto;
   width: 15%;
@@ -1642,7 +1645,7 @@ a.panel.panel--no-hover:hover {
   top: 0;
 }
 .sk-fading-circle .sk-circle:before {
-  content: '';
+  content: "";
   display: block;
   margin: 0 auto;
   width: 15%;
@@ -1777,7 +1780,7 @@ a.panel.panel--no-hover:hover {
   transform: scale(1.1);
 }
 .sk-folding-cube .sk-cube:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -2388,7 +2391,7 @@ select:focus {
 }
 .clearfix::after,
 .clearfix::before {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }

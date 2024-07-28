@@ -13,7 +13,7 @@ export function render() {
                 </select>
             </div>
             <div class="view-options__type">
-                <input type="radio" class="view-options__radio" name="displayType" id="displayCards" value="cards"/>
+                <input type="radio" class="view-options__radio" name="displayType" id="displayCards" value="cards" checked/>
                 <label for="displayCards" class="view-options__type-item">
                     <i class="fas fa-th-large"></i>
                 </label>
